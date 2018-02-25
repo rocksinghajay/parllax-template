@@ -1,0 +1,85 @@
+body,html{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Courier New', 'Courier', 'monospace';
+    font-size: 27px;
+    line-height: 40px;
+    height: 100%;
+    color: white;
+    background-color:darkgray;
+    text-align: center;
+}
+.img1 , .img2 , .img3 , .img4{
+    opacity: 0.70;
+    position: relative;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.img1{
+    background-image: url('../img/1.jpg');
+    min-height: 100%;
+   
+}
+.img2{
+    background-image: url('../img/2.jpg');
+    min-height: 100%;
+    
+}
+.img3{
+    background-image: url('../img/3.jpeg');
+    min-height: 400px;
+   
+}
+.img4{
+    background-image: url('../img/4.jpeg');
+    min-height: 400px;
+    
+}
+
+.head1{
+    top: 50%;
+    position: absolute;
+    font-size: 50px;
+    width: 100%;
+    
+}
+span{
+    letter-spacing: 15px;
+    background-color: black;
+    color: white;
+    padding: 1% auto;
+    border: 2px solid white;
+    border-radius: 10px;
+    opacity: 0.70;
+}
+.section1 section p{
+    padding: 2% 10%;
+    background-color: black;
+    color: white;
+
+}
+.section3 section p{
+    padding: 2% 10%;
+    background-color: black;
+    color: white;
+
+}
+.section2 section p{
+    padding: 2% 10%;
+    background-color: white;
+    color: black;
+
+}
+.section4 section p{
+    padding: 2% 10%;
+    background-color: white;
+    color: black;
+
+}
+h2{
+    color: black;
+}
+
